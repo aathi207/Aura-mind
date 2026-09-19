@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- AuraMind Central Orchestration Nodes and Chevron Flow -->
+
+    <!-- Outer Aura Glow -->
+    <path
+        android:pathData="M54,26 L78,68 L68,68 L54,42 L40,68 L30,68 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="30"
+                android:startY="26"
+                android:endX="78"
+                android:endY="68"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#38BDF8" />
+                <item android:offset="0.5" android:color="#818CF8" />
+                <item android:offset="1.0" android:color="#C084FC" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Pipeline Workflow Bridge (Horizontal Chevron) -->
+    <path
+        android:pathData="M38,56 L70,56 L66,62 L42,62 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="38"
+                android:startY="56"
+                android:endX="70"
+                android:endY="62"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#22D3EE" />
+                <item android:offset="1.0" android:color="#F472B6" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Central Intelligent Core Pulse (Diamond) -->
+    <path
+        android:pathData="M54,46 L60,54 L54,62 L48,54 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Action Pipeline Indicators (Three Bottom Nodes: High, Medium, Low Priority) -->
+    <!-- High (Coral/Amber Node) -->
+    <path
+        android:pathData="M37,76m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0"
+        android:fillColor="#F43F5E" />
+
+    <!-- Medium (Purple/Indigo Node) -->
+    <path
+        android:pathData="M54,76m-4.5,0a4.5,4.5 0,1 1,9 0a4.5,4.5 0,1 1,-9 0"
+        android:fillColor="#38BDF8" />
+
+    <!-- Low (Emerald/Cyan Node) -->
+    <path
+        android:pathData="M71,76m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0"
+        android:fillColor="#10B981" />
+
+    <!-- Interconnecting Pipeline Flow Lines -->
+    <path
+        android:pathData="M41,76 L50,76"
+        android:strokeWidth="2"
+        android:strokeColor="#80FFFFFF"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M58,76 L67,76"
+        android:strokeWidth="2"
+        android:strokeColor="#80FFFFFF"
+        android:strokeLineCap="round" />
+</vector>

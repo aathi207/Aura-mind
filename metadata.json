@@ -1,0 +1,6 @@
+{
+  "name": "AuraMind",
+  "description": "Elite smart automation utility that transforms chaotic unstructured text and multi-modal inputs into actionable workflow pipelines with summaries, prioritized tasks, and draft replies.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AuraMind</string>
+    <string name="app_tagline">Elite Smart Automation Pipeline</string>
+    <string name="workflow_summary">Workflow Summary</string>
+    <string name="actionable_tasks">Actionable Tasks</string>
+    <string name="draft_reply">Operational Draft Reply</string>
+    <string name="analyze_action">Orchestrate Workflow</string>
+    <string name="reset_action">Clear Canvas</string>
+</resources>
